@@ -28,8 +28,8 @@ String search[] = {"mozart","dubstep","hamburger","monkey","art","rocket","airpl
 int searchIndex = 0;
 String url= "https://www.youtube.com/results?search_query=";
 boolean searched = false;
-int page = 1; int pages = 3;
-int link = 0; int links = 5;
+int page = 1; int pages = 4; //searches pages-1 pages
+int link = 0; int links = 4; //goes through links+1 links
 
 //robot vars
 Robot robot;
